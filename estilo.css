@@ -38,7 +38,12 @@
     padding: 25px 20px;
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
+    transition: width 1s, height 2s, transform 1s;
   }
+  .logo img:hover {
+    transform: rotate(-20deg);
+  }
+  
   li a:hover {
     background-color:rgba(245, 245, 220, 0.589);
   }
